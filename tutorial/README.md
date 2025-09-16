@@ -689,3 +689,20 @@ Commands used:
 Results:
 - Total requests from legal organizations: 
 - Number of unique legal organization names: 
+
+
+
+
+How could command line skills improve your efficiency as a journalist?
+Using these skills allows you to quickly analzye and parse through data sets. 
+
+
+What types of stories or investigations would benefit most from these tools? 
+These would specifically be most helpful for those doing data stories and working with records like FOIA.
+
+What felt most challenging about learning these technical skills?
+
+They are not intuituve at all and extremely frustrating to recall. Using the terminal for me was a very difficult was to look through content becasue you can not easily edit your work. In addition there were many steps that have to be done one by one which is not the type of coding I was used to. The format in which the machine returns info is not easy to view. 
+
+How does this connect to your understanding of data journalism?
+Those working in the data space must be tech savy and good skills to "inteview" data to find a story. 
