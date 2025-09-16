@@ -234,16 +234,16 @@ Change directory to the `tutorial` directory.
 Using `ls` or a combination of `cd` and `ls`, explore the ICE detention statistics directory and answer these questions:
 
 1. What is the most recent fiscal year for which ICE detention statistics are available?
-2. How many detention statistics files are there for fiscal year 2025?
-3. What do you think the numbers in the FY25 filenames represent (hint: look at the dates)?
+2. How many detention statistics files are there for fiscal year 2025? 
+3. What do you think the numbers in the FY25 filenames represent (hint: look at the dates)? 
 
 **Write your answers here:**
 
-1. Most recent fiscal year: 
+1. Most recent fiscal year: 2025
 
-2. Number of FY25 files: 
+2. Number of FY25 files: 2
 
-3. What the numbers represent: 
+3. What the numbers represent: The dates when last updated
 
 (Check your answers against the solutions file when complete)
 
@@ -349,13 +349,13 @@ Typing the minimal number of characters, delete the file `data/manual/mock_data/
 
 **Write your answer here:**
 
-Method used (arrow keys or ctrl+r): 
+Method used (arrow keys or ctrl+r): Arrows keys
 
 Commands used: 
 
-1. 
+1. rm
 
-2. 
+2. rmdir
 
 ## Viewing and previewing files
 
@@ -425,11 +425,11 @@ Use the commands you've learned to examine the UMPD Incidents CSV file and answe
 
 **Write your answers here:**
 
-1. First incident type on 2/1/2025: 
+1. First incident type on 2/1/2025: Injured/Sick Person
 
-2. Total rows (excluding header): 
+2. Total rows (excluding header): 18352
 
-3. Most recent date in file: 
+3. Most recent date in file: 2025-08-28
 
 ## Searching for files and their contents
 
@@ -481,21 +481,21 @@ The manual pages are dense and long, but you will learn so much by skimming or r
 
 Explore the FOIA logs and answer these questions:
 
-1. How would you find only FOIA logs for 2024 that are in the CSV file format?
-2. Count how many 2024 CSV FOIA log files there are.
-3. Use a different pattern to search the FOIA log CSV files for something of interest to you. What search term did you use and what did you find?
+1. How would you find only FOIA logs for 2024 that are in the CSV file format? 
+2. Count how many 2024 CSV FOIA log files there are. 
+3. Use a different pattern to search the FOIA log CSV files for something of interest to you. What search term did you use and what did you find? 
 
 **Bonus challenge**: Can you figure out which month in 2024 had the most FOIA requests by comparing the file sizes using `ls -l`?
 
 **Write your answers here:**
 
-1. Command to find 2024 CSV FOIA logs: 
+1. Command to find 2024 CSV FOIA logs: find data/ice-foia-logs -name '*2024*csv'
 
-2. Number of 2024 CSV files: 
+2. Number of 2024 CSV files: 3
 
-3. Your search term: 
+3. Your search term: grep 'Texas' data/ice-foia-logs/*2024*.csv 
 
-   What you found: 
+   What you found: 12 records came up about Texas
 
 **Bonus answer:**
 
@@ -535,9 +535,9 @@ Use a different pattern to search the FOIA log CSV files for something of intere
 
 **Write your answer here:**
 
-Search term used: 
+Search term used: grep -i 'Mexico' data/ice-foia-logs/*2024*.csv
 
-What you found: 
+What you found: All of these files related to people or facilites in New Mexico, not what I was expecting. 
 
 ### Try it yourself
 
