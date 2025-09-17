@@ -554,14 +554,14 @@ Now let's practice with csvkit tools. Work through these exercises and record yo
 
 **Write your answers here:**
 
-1. Command used for csvgrep: 
+1. Command used for csvgrep: csvgrep -c 'Requester::Organization Name' -m 'Law' data/ice-foia-logs/2024-10_FOIA_Log.csv | csvcut -c 'Requester::Organization Name'
 
-2. Command used to save with csvcut: 
+2. Command used to save with csvcut: >
 
 3. Analysis answers:
-   - Total lawyer/law firm requests: 
-   - Patterns observed: 
-   - More frequent ("Law" or "Legal"): 
+   - Total lawyer/law firm requests: 2349
+   - Patterns observed: Alexandra Lozano Immigration Law PLLC had many of the requests
+   - More frequent ("Law" or "Legal"): Law
 
 **Bonus answer:**
    - Number of unique names: 
